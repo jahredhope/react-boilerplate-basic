@@ -1,0 +1,55 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/errors"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "import/resolver": "webpack"
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true,
+      "modules": true,
+      "classes": true,
+      "blockBindings": true,
+      "arrowFunctions": true,
+      "destructuring": true,
+      "defaultParams": true
+    }
+  },
+  "rules": {
+    "indent": [2, 2],
+    "quotes": [2, "single"],
+    "linebreak-style": [2, "unix"],
+    "no-trailing-spaces": 2,
+    "comma-dangle": [2, "never"],
+    "comma-spacing": [2, {"before": false, "after": true}],
+    "no-debugger": 1,
+    "consistent-return": 2,
+    "no-mixed-spaces-and-tabs": 2,
+    "valid-jsdoc": 2,
+    "keyword-spacing": 2,
+    "space-in-parens": 2,
+    "complexity": [2, 6],
+    "no-console": 0,
+    "no-unused-vars": [
+      2, {
+        "vars": "all",
+        "ignore": ["React"],
+        "args": "none"
+      }
+    ],
+    "max-len": [2, 280, 4]
+  }
+}

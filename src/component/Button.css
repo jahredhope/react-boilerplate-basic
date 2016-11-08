@@ -1,0 +1,30 @@
+.button {
+  display: block;
+  line-height: 40px;
+  min-width: 80px;
+  padding: 0 10px 0 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: skyblue;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.button:focus {
+  opacity: .8;
+  outline-width: 0;
+}
+.button:hover {
+  opacity: .8;
+}
+.button:active {
+  opacity: .6;
+  transition: opacity 0s;
+}
+
+.button-primary {
+  background-color: green;
+}
