@@ -1,4 +1,4 @@
-import React   from 'react';
+import React   from 'react'
 import cn from 'classnames'
 import { Link } from 'react-router'
 
@@ -10,7 +10,7 @@ const NavMenu = () => (
     <Link className={styles.item} activeClassName={styles.active} to="/about">About</Link>
     <Link className={styles.item} activeClassName={styles.active} to="/thing">Thing</Link>
   </nav>
-);
+)
 
 NavMenu.propTypes = {
 }

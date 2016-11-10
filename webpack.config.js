@@ -1,5 +1,5 @@
-var webpack = require('webpack');
-var path = require('path');
+var webpack = require('webpack')
+var path = require('path')
 
 module.exports = {
   entry: [
@@ -30,7 +30,7 @@ module.exports = {
     }]
   },
   resolve: {
-    modules: ['./src', 'node_modules']
+    modules: ['./src', 'node_modules', 'wip_modules']
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin()
@@ -39,4 +39,4 @@ module.exports = {
     contentBase: './',
     headers: { 'Access-Control-Allow-Origin': '*'}
   }
-};
+}

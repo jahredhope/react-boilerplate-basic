@@ -1,0 +1,47 @@
+.container {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  min-width: 80px;
+  padding: 0 10px 0 10px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 5px;
+  background-color: var(--color-main);
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.dropdown {
+  background:
+    linear-gradient(45deg, transparent 50%, var(--color-trim) 50%),
+    linear-gradient(135deg, var(--color-trim) 50%, transparent 50%),
+    linear-gradient(to right, var(--color-main), var(--color-main));
+  background-position:
+    calc(100% - 21px) calc(1em + 2px),
+    calc(100% - 16px) calc(1em + 2px),
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+  background-repeat: no-repeat;
+  background-color: var(--color-main);
+}
+
+.container:focus {
+  outline-width: 0;
+  opacity: 0.8;
+}
+.container:hover {
+  opacity: .8;
+}
+.container:active {
+  opacity: .6;
+  transition: opacity 0s;
+}

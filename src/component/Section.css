@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+  max-width: var(--page-max-width);
+  padding: 10px 10px 0;
+  background-color: var(--color-panel-background);
+
+  display: flex;
+  flex-direction: column;
+}

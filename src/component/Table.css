@@ -1,12 +1,10 @@
-:root {
-  --bottom-margin: 20px;
-}
-
 .container {
   max-width: 500px;
   width: 100%;
   border-collapse: collapse;
   margin-bottom: var(--bottom-margin);
+
+  align-self: center;
 }
 
 .container td, .container th {
@@ -24,5 +22,5 @@
 }
 
 .container tr:nth-child(even) {
-  background-color: #e0f0ff;
+  background-color: var(--color-main);
 }

@@ -2,47 +2,28 @@
   display: flex;
   justify-content: flex-start;
   border-bottom: 1px solid #aaaaaa;
-  /*margin-bottom: var(--bottom-margin);*/
   margin: 0 10px 20px;
-  /*width: 100%;*/
   max-width: 500px;
-  /*margin-right: 100px;
-  margin-left: 100px;*/
+  align-self: flex-start;
   box-sizing: border-box;
-  /*background-color: green;*/
   overflow: hidden;
   flex-wrap: nowrap;
 }
 
 .item {
-  /*border-bottom: currentColor;*/
   float: left;
   min-width: 80px;
   display: block;
   text-decoration: none;
   padding: 10px 10px 2px;
-  color: currentColor;
   font-weight: 600;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   box-sizing: border-box;
-  /*flex-shrink: 0;*/
 }
 
 .active {
-
-  border-bottom: 1px red solid;
-}
-
-body {
-  max-width: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body div {
-  /*width: 100%;*/
+  background-color: rgba(224, 240, 255, 0.2);
+  border-bottom: 3px var(--color-main) solid;
 }

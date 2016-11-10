@@ -1,4 +1,4 @@
-import React, {PropTypes} from 'react';
+import React, {PropTypes} from 'react'
 // import cn from 'classnames'
 
 import styles from './Table.css'
@@ -16,7 +16,7 @@ const Table = ({columns, rows}) => (
       </tr>)}
     </tbody>
   </table>
-);
+)
 
 Table.propTypes = {
   columns: PropTypes.array.isRequired,

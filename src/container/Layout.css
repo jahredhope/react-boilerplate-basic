@@ -1,0 +1,45 @@
+
+
+body {
+  font-size: 18px;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  background-color: var(--color-background);
+}
+
+input, select {
+  font-size: inherit;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+}
+
+body {
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bottom-margin: 20px;
+  --page-max-width: 650px;
+
+  --off-white: #fbfbfd;
+  --dark-blue: #444488;
+  --blue: #e0f0ff;
+  --grey: #777777;
+  --color-main: var(--blue);
+  --color-trim: var(--dark-blue);
+  --color-counter: var(--grey);
+  --color-background: var(--off-white);
+  --color-panel-background: white;
+
+}
+
+
+.container {
+}
