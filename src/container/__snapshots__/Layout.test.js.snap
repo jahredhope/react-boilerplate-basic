@@ -1,0 +1,43 @@
+exports[`test Layout sets a base Layout class and passes through children 1`] = `
+<div
+  className="mock-style-container">
+  <header
+    className="mock-style-container">
+    <img
+      className="mock-style-icon"
+      height="50"
+      src="test-file-stub" />
+  </header>
+  <nav
+    className="mock-style-container">
+    <a
+      className="mock-style-item"
+      href="/home"
+      onClick={[Function]}
+      style={Object {}}>
+      Home
+    </a>
+    <a
+      className="mock-style-item"
+      href="/about"
+      onClick={[Function]}
+      style={Object {}}>
+      About
+    </a>
+    <a
+      className="mock-style-item"
+      href="/thing"
+      onClick={[Function]}
+      style={Object {}}>
+      Thing
+    </a>
+  </nav>
+  <section>
+    No route for that: Either we stuffed up a link or your being a shit
+  </section>
+  <footer
+    className="mock-style-container">
+    By Jahred Hope
+  </footer>
+</div>
+`;

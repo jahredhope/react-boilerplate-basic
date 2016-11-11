@@ -6,7 +6,7 @@
 
     Navigate to localhost:3000
 
-# What is [insert term here]?
+## What is [insert term here]?
   * [React](https://github.com/facebook/react)
   * [React Router](https://github.com/rackt/react-router)
   * [Babel](http://babeljs.io) for ES6 and ES7 magic
@@ -44,17 +44,14 @@ Items in containers should specify bottom margin.
 The image loader uses base64 encoded strings.  
 This is deliberate.
 
-### Pixels
-c * (2**n)
-c = 3
+# Testing
 
-3  
-6  
-12  
-24  
-48  
-96  
-192  
-384  
-768  
-1536  
+### Jest
+Connected components should export both their decorated component as the default and their non-decorated component as their name.  
+
+See [Redux Docs/connected components](http://redux.js.org/docs/recipes/WritingTests.html#connected-components) on why this is recommended  
+
+
+#### Mocks
+Mocks for Styles export the parameter used with 'mock-style-' at the start.
+Mocks for Files export the simple string 'test-file-stub'

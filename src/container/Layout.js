@@ -12,7 +12,7 @@ import NoMatch from 'container/NoMatch'
 
 import styles from './Layout.css'
 
-class Layout extends Component {
+export class Layout extends Component {
   render() {
     const {routes} = this.props
     console.log('Layout', 'this.props', this.props)

@@ -51,6 +51,7 @@
         "args": "none"
       }
     ],
+    "prefer-const": 2,
     "max-len": [2, 280, 4]
   }
 }

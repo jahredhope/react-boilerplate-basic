@@ -1,0 +1,21 @@
+exports[`test Button passes through unknown props 1`] = `
+<button
+  className="mock-style-button"
+  form="mock-form">
+  mock-child
+</button>
+`;
+
+exports[`test Button sets a base button class and passes through children 1`] = `
+<button
+  className="mock-style-button">
+  mock-child
+</button>
+`;
+
+exports[`test Button sets class based on type 1`] = `
+<button
+  className="mock-style-button mock-style-button-danger">
+  mock-child
+</button>
+`;

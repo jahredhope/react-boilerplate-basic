@@ -8,9 +8,9 @@ import { Provider } from 'react-redux'
 import Layout from 'container/Layout'
 import reducer from './reducers'
 
-let store = createStore(reducer)
+const store = createStore(reducer)
 
-let rootElement = document.getElementById('root')
+const rootElement = document.getElementById('root')
 
 render(
     <AppContainer>
